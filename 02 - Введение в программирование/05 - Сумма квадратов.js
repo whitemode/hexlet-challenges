@@ -6,7 +6,7 @@ const sumSquareDifference = n => {
     let powOfSum = 0;
     let sum = 0;
     
-    for (let i = 1; i <= n; i += 1) {
+    for (i = 1; i <= n; i += 1) {
         sumOfPow += i ** 2;
         sum += i;
     }

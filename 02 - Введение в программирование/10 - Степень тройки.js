@@ -2,7 +2,7 @@
 //Например, число 27 — это третья степень: 3^3, а 81 — это четвёртая: 3^4.
 
 const isPowerOfThree = num => {
-    for (let power = 0; num >= (3 ** power); power += 1) {
+    for (power = 0; num >= (3 ** power); power += 1) {
         if (num === (3 ** power)) return `true (3^${power})`;
     }
     return false;

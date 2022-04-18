@@ -8,10 +8,10 @@ const isHappyTicket = num => {
     let sumOfHalf2 = 0;
     const halfIndex = Math.round(num.length / 2);
     
-    for (let i = 0; i != halfIndex; i += 1) {
+    for (i = 0; i != halfIndex; i += 1) {
         sumOfHalf1 += Number(num[i]);
     }
-    for (let i = halfIndex; i != num.length; i += 1) {
+    for (i = halfIndex; i != num.length; i += 1) {
         sumOfHalf2 += Number(num[i]);
     }
     

@@ -4,7 +4,7 @@
 const isPerfect = num => {
     let sum = 0;
 
-    for (let n = 1; n < num; n += 1) {
+    for (n = 1; n < num; n += 1) {
         if (num % n === 0) sum += n;
     }
 

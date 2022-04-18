@@ -8,13 +8,13 @@ const isHappyNumber = num => {
         num = String(num);
         let sum = 0;
 
-        for (let n = num.length - 1; n != -1; --n) {
+        for (n = num.length - 1; n != -1; --n) {
             sum += Number(num[n]) ** 2;
         }
         return sum;
     }
 
-    for (let i = 10; i != 0; --i) {
+    for (i = 10; i != 0; --i) {
         if (num === 1) return true;
         num = sumOfSquareDigits(num);
     }
