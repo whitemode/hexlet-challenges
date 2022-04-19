@@ -1,6 +1,6 @@
 //Реализуйте функцию, которая переворачивает цифры в переданном числе и возвращает новое число.
 
-const reverseInt = (num) => {
+const reverseInteger = (num) => {
     if (typeof num != 'number') return NaN;
     let str = String(Math.abs(num));
     let i = str.length - 1;
